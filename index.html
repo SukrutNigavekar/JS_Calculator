@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="subContainer">
+        <div class="gridContainer1">
+          <div class="input">
+            <input type="text" readonly class="itemInput" id="textbox">
+          </div>
+          
+          <div class="gridItem">
+            <button class="clearBtn" onclick="clearText()">C</button>
+          </div>
+        </div>
+        
+        <div class="gridContainer">
+          <div class="gridItem">
+            <button class="gridItem" onclick="one()">1</button>
+          </div>
+          <div class="gridItem">
+            <button class="gridItem" onclick="two()">2</button>
+          </div>
+          <div class="gridItem">
+            <button class="gridItem" onclick="three()">3</button>
+          </div>
+          <div class="gridItem">
+            <button class="gridItem" onclick="plus()">+</button>
+          </div>
+          <div class="gridItem">
+            <button class="gridItem" onclick="four()">4</button>
+          </div>
+          <div class="gridItem">
+            <button class="gridItem" onclick="five()">5</button>
+          </div>
+          <div class="gridItem">
+            <button class="gridItem" onclick="six()">6</button>
+          </div>
+          <div class="gridItem">
+            <button class="gridItem" onclick="minus()">-</button>
+          </div>
+          <div class="gridItem">
+            <button class="gridItem" onclick="seven()">7</button>
+          </div>
+          <div class="gridItem">
+            <button class="gridItem" onclick="eight()">8</button>
+          </div>
+          <div class="gridItem">
+            <button class="gridItem" onclick="nine()">9</button>
+          </div>
+          <div class="gridItem">
+            <button class="gridItem" onclick="multiply()">x</button>
+          </div>
+          <div class="gridItem">
+            <button class="item0" onclick="decimal()">.</button>
+          </div>
+          <div class="gridItem">
+            <button class="item0" onclick="zero()">0</button>
+          </div>
+          <div class="gridItem">
+            <button class="item0" onclick="answer()">=</button>
+          </div>
+          <div class="gridItem">
+            <button class="gridItem" onclick="divide()">/</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
